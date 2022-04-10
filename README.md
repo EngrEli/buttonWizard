@@ -4,7 +4,7 @@ A button background demo
 
 # installation
 
-npm i buttonWizard --save
+npm i @eli/buttonwizard --save
 
 ```
 import { buttonWizard } from 'buttonWizard'
