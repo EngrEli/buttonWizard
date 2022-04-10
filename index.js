@@ -1,4 +1,4 @@
-function buttonWizard(options) {
+module.exports.buttonWizard = (options) => {
   let button = document.querySelectorAll('.buttonwizard'); 
 
   if(options.type === 'primary') {
@@ -11,5 +11,3 @@ function buttonWizard(options) {
     buttons.style.backgroundColor = options.type
   })
 }
-
-module.exports.buttonWizard = buttonWizard;
